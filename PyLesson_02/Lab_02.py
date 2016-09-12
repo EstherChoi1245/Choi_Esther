@@ -15,4 +15,4 @@ width = 6
 constant = 2
 Addition = length * height + width * height + length * width
 SurfaceArea = Addition * 2
-print ("The surface area is", SurfaceArea,)
+print ("The surface area of your rectangle is", SurfaceArea,)
