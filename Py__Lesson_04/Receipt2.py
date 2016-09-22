@@ -1,19 +1,23 @@
+def printf (item, price):
+    print ("* {:>20} ........\t{:10.2}".format(item, price))
 
-def printf (thing, something):
-	print ("* {:>13}\t{:>10.7} *".format(thing, something))
+item1 = input("Please enter Item 1: ")
+price1 = float(input("Please enter the price: "))
 
-thing2 = input("Enter your first name: ")
-something2 = input("Enter your last name:")
+item2 = input("Please enter Item 2: ")
+price2 = float(input("Please enter the price: "))
 
-thing1 = input("Enter the school site: ")
-something1 = input("Enter the school year: ")
-
-thing3 = input("Enter your title: ")
-something3 = input("What is your subject? ")
-
-print ("***************************")
-printf (thing1, something1)
-printf (thing2, something2)
-printf (thing3, something3)
-print ("***************************")
-
+item3 = input("Please enter Item 3: ")
+price3 = float(input("Please enter the price: "))
+subtotal = price1 + price2 + price3
+tax = (price1 + price2 + price3)*0.07
+total = (price1 + price2 + price3)*1.07
+print ("<<<<<<<<<<<<<<<__Recipt__>>>>>>>>>>>>>>>")
+printf (item1, price1)
+printf (item2, price2)
+printf (item3, price3)
+printf ("Subtotal:", subtotal)
+printf ("Tax:", tax)
+printf ("Total:", total)
+print ("____________________________________")
+print ("* Thank you for your support *")
