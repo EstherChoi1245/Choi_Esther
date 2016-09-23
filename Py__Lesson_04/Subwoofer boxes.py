@@ -7,5 +7,5 @@ length = float(input("What is the length of the box in inches?"))
 calcVol = height * weight * length
 
 
-print (thing(calcVol))
+print ("The subwoofer box has a volume of", (thing(calcVol)), "cubic feet.")
 
