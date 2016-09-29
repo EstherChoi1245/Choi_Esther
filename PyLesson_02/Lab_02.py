@@ -1,12 +1,15 @@
 p = 6 * 8
 print ("6 multiplied by 8 is",p)
 
-Name = " Esther "
-Address = "Milkweed Road 3982 "
-City = "San Diego "
+Name = "Esther Choi"
+Address = "67745 Milkweed Road"
+City = "San Diego, CA "
 ZipCode = "92130 "
 
-print (Name + Address + City + ZipCode)
+print (Name)
+print (Address)
+print (City + ZipCode)
+
 
 
 length = 2
