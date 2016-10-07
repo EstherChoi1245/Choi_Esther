@@ -23,13 +23,15 @@
 #formatf (item4, price4)
 
 #3. D.
-num1 = 5
-num2 = 7
-num3 = 9
-numPrint (num1, num2, num3)
-def calcAvg (one, two, three):
-    return (own +two+three)/3
-def numPrint (one, two, three):
-    avg = calcAvg (one, two, three)
-    print ("The average of", one, two, "and",three,"is", avg)
-
+#num1 = 5
+#num2 = 7
+#num3 = 9
+#numPrint (num1, num2, num3)
+#def calcAvg (one, two, three):
+ #   return (own +two+three)/3
+#def numPrint (one, two, three):
+ #   avg = calcAvg (one, two, three)
+ #   print ("The average of", one, two, "and",three,"is", avg)
+#4.
+def calcSurf (side):
+    surfacea = (side**2)
