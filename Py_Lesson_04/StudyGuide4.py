@@ -33,5 +33,43 @@
  #   avg = calcAvg (one, two, three)
  #   print ("The average of", one, two, "and",three,"is", avg)
 #4.
-def calcSurf (side):
-    surfacea = (side**2)
+#def calcSurf (side):
+ #   surfacea = ((side**2)*6)
+  #  return surfacea
+#def surfPrint (side):
+ #   print ("The surface area of your cube is {:0.5f} inches".format(calcSurf(side)))
+#side = float(input("What is the length of one side of the cube in inches?"))
+#surfPrint (side)
+#5.
+#def calcSum(one,two):
+ #   return one + two
+#def sumPrint (one, two):
+#    print ("The sum of", one, "and", two,"is",calcSum(one,two))
+#num1 = int(input("What is your first number:"))
+#num2 = int(input("What is your second number:"))
+#calcSum (num1, num2)
+#sumPrint (num1, num2)
+#6.
+#area = 0
+#radius = 6
+#def calcRadius (num1):
+#    global radius
+#    radius = 3.14*(radius**2)
+#def radPrint(num1):
+#    print ("The area of your circle is {:0.3f}".format(radius))
+#calcRadius(radius)
+#radPrint(radius)
+#7. 
+#a.
+#8.
+#d., 
+#9.
+#d.,b./a.
+#10.
+#c.
+
+
+
+
+
+
