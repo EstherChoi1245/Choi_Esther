@@ -10,10 +10,11 @@ B = 0
 C = 0
 D = 0
 F = 0
+points = 0
 
 def calcPoints(num1):
     global A, B, C, D, F
-    if num1 == A:
+    if num1==A:
         return 4.0
     elif num1 == B:
         return 3.0
@@ -21,16 +22,12 @@ def calcPoints(num1):
         return 2.0
     elif num1 == D:
         return 1.0
-    else:
+    elif num1 == F:
         return 0.0
+    
+add = ((calcPoints(science)+calcPoints(math)+calcPoints(english)+calcPoints(history)+calcPoints(PE)+calcPoints(language)+calcPoints(art))/7)           
+print("Your GPA is {:2.2}".format(add))
 
-print("Your GPA is", (calcPoints (science) + calcPoints (math) + calcPoints (english) + calcPoints (history) + calcPoints (PE) + calcPoints (language) + calcPoints (art))/7)
-
-
-
-
-
-   
 
 
 
