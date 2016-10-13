@@ -7,29 +7,30 @@ condition = 0
 def calcBMI (num1):
     global bmi, condition
     bmi = ((weight*703)/(height**2))
-    return bmi
+    
     if bmi<18.5:
-        condition = "Underweight"
-        return condition
+        condition = "underweight"
+            return condition
     elif bmi<24.9:
-        condition= "Normal"
-        return condition
+        condition= "normal"
+            return condition
     elif bmi<29.9:
-        condition = "Overweight"
-        return condition
+        condition = "overweight"
+            return condition
     elif bmi<34.9:
-        condition = "Obese"
-        return condition
+        condition = "obese"
+            return condition
     elif bmi<39.9:
-        condition = "Very Obese"
-        return condition
+        condition = "very obese"
+            return condition
     else:
-        condition = "Morbidly Obese"
-        return condition
+        condition = "morbidly obese"
+            return condition
         
 
-print ("Your BMI is:", bmi)
-print ("You are", condition)
+print ("Your BMI is:", 
+print ("You are", calcBMI(condition))
 
 
     
+
