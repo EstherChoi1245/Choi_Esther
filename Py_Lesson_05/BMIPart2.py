@@ -1,36 +1,36 @@
-height= int(input("How tall are you in inches?"))
-weight= int(input("How much do you weigh in pounds?"))
+height= float(input("How tall are you in inches?"))
+weight= float(input("How much do you weigh in pounds?"))
 
 bmi = 0
 condition = 0
+bmi = ((weight*703)/(height**2))
 
 def calcBMI (num1):
     global bmi, condition
-    bmi = ((weight*703)/(height**2))
-    
     if bmi<18.5:
         condition = "underweight"
-            return condition
+        return condition
     elif bmi<24.9:
         condition= "normal"
-            return condition
+        return condition
     elif bmi<29.9:
         condition = "overweight"
-            return condition
+        return condition
     elif bmi<34.9:
         condition = "obese"
-            return condition
+        return condition
     elif bmi<39.9:
         condition = "very obese"
-            return condition
+        return condition
     else:
         condition = "morbidly obese"
-            return condition
+        return condition
         
 
-print ("Your BMI is:", 
+print ("Your BMI is: {:3.2f}".format(bmi)) 
 print ("You are", calcBMI(condition))
 
 
     
+
 
