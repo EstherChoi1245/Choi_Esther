@@ -2,7 +2,7 @@
 #item1 = float(input("please enter the cost of the first item:"))
 #item2 = float(input("please enter the cost of the second item:"))
 #def format (one, two):
- #   print ("The total cost of your order is {:5.2}".format(item1+item2))
+ #   print ("The total cost of your order is ${:.2f}".format(item1+item2))
 #format (item1, item2)
 
 #2.
