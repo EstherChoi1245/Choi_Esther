@@ -2,7 +2,7 @@
 #item1 = float(input("please enter the cost of the first item:"))
 #item2 = float(input("please enter the cost of the second item:"))
 #def format (one, two):
- #   print ("The total cost of your order is ${:.2f}".format(item1+item2))
+#    print ("The total cost of your order is ${:.2f}".format(item1+item2))
 #format (item1, item2)
 
 #2.
@@ -16,7 +16,7 @@
 #item4 = input("please enter the fourth item:")
 #price4 = float(input("please enter the cost of the fourth item:"))
 #def formatf (one, two):
-    #print ("{:<12}\t ......{:3.2}".format(one, two))
+#    print ("{:12}......${:.2f}".format(one, two))
 #formatf (item1, price1)
 #formatf (item2, price2)
 #formatf (item3, price3)
@@ -42,23 +42,23 @@
 #surfPrint (side)
 #5.
 #def calcSum(one,two):
- #   return one + two
+#    return one + two
 #def sumPrint (one, two):
-#    print ("The sum of", one, "and", two,"is",calcSum(one,two))
+#    print ("The sum of", one, "and", two,"is", calcSum(one,two))
 #num1 = int(input("What is your first number:"))
 #num2 = int(input("What is your second number:"))
 #calcSum (num1, num2)
 #sumPrint (num1, num2)
 #6.
-#area = 0
-#radius = 6
-#def calcRadius (num1):
-#    global radius
-#    radius = 3.14*(radius**2)
-#def radPrint(num1):
-#    print ("The area of your circle is {:0.3f}".format(radius))
-#calcRadius(radius)
-#radPrint(radius)
+area = 0
+radius = 6
+def calcRadius (num1):
+    global radius, area
+    area = 3.14*(radius**2)
+def radPrint(num1):
+    print ("The area of your circle is {:0.3f}".format(area))
+calcRadius(radius)
+radPrint(area)
 #7. 
 #a.
 #8.
