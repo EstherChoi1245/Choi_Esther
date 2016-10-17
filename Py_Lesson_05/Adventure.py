@@ -1,3 +1,4 @@
+
 print ("Hey, you\'re going to the Fields to pick rare herbs for Madame Butterfly, right? I'll be coming with you.")
 
 choice = input("There's a large cliff with a dangerous road winding through it but it's a shortcut to the Fields. There's a small path leading through the forest on the right but Butterfly needs those herbs fast. Do you want to take the long way or the short way? \n I want to take the:")
