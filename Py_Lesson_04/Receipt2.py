@@ -1,5 +1,5 @@
 def printf (item, price):
-    print ("* {:>20} ........\t{:10.2}".format(item, price))
+    print ("* {:>20} ........\t{:0.2f}".format(item, price))
 
 item1 = input("Please enter Item 1: ")
 price1 = float(input("Please enter the price: "))
@@ -9,6 +9,7 @@ price2 = float(input("Please enter the price: "))
 
 item3 = input("Please enter Item 3: ")
 price3 = float(input("Please enter the price: "))
+
 subtotal = price1 + price2 + price3
 tax = (price1 + price2 + price3)*0.07
 total = (price1 + price2 + price3)*1.07
