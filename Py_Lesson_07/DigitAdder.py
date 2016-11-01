@@ -1,12 +1,16 @@
-number = input("Enter a number:")
-sum = 0
-num=number
+number = int(input("Enter a number:"))
+
 def sumDigits():
-    while num>0:
-        sum += 1
+    global summ
+    summ = 0
+    num = number
+    while num > 0:
+        summ = summ + (num % 10)
         num = int(num/10)
-    
-print ("The sum of the digits of", number, "is", sumDigits())
+
+sumDigits()
+
+print ("The sum of the digits of", number, "is", summ)
 
 
 
