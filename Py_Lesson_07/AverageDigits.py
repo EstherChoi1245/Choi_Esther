@@ -1,24 +1,19 @@
+
 number = int(input("Enter a number:"))
-digits = 0
-average = 0
 
-def avDigits ():
-    global digits, average 
+def sumDigits():
+    global digits, average
+    Numsum = 0
+    digits = 0
+    average = 0
     num = number
-    while num>0:
+    while num > 0:
+        Numsum+= (num %10)
         digits+=1
+        average = (Numsum/(len(str(number))))
         num = int(num/10)
-        average = (num + digits)/num
         
+sumDigits()
 
-avDigits()
-print ("The average of the digits in", number, "is", average)
+print ("The sum of the digits of", number, "is", average)
 
-
-
-
-
-
-
-
-    
