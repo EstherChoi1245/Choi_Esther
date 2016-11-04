@@ -1,14 +1,16 @@
 number = int(input("Enter a number:"))
 
 def getReverse():
-    global rev
-    rev = 0
+    global Rev, num
+    Rev = 0
     num = number
     while num > 0:
-        rev = ((rev * 10)+(num % 10))
+        Rev = ((Rev * 10)+(num % 10))
         num = int(num/10)
-        
-print (number, "reversed is", rev)
+
+getReverse ()
+
+print (number, "reversed is", Rev)
 
 
 
