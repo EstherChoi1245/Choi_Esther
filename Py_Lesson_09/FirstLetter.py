@@ -1,17 +1,11 @@
-words = ["But", "ice cream", "tangents", "can't", "help"]
-def first (words):
-    something= words.split()
-    print (something)
-    output = " "
-    j=0
-    for i in words:
-        output+= str(i)
-        if j < len(words)-1:
-            output+= " "
-        j+=1
-    print(output)
+words = ["You", "know", "tangents", "will", "help"]
 
-first(words)
+def first ():
+    for string in words:
+        print (string[0])
+
+
+first()
 
 
 
