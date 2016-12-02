@@ -1,24 +1,24 @@
+
 import random
 numbers= []
 
 for i in range(0, 10):
-    numbers.append(str(random.randint(1, 100)))
+    numbers.append(random.randint(1, 100))
     
 print ("Numbers....")
 output = ""
 
 for string in numbers:
-    output+= " " + string + output
+    output= " " + str(string) + output
 
 print (output + "\n")
 
-def average(num1):
-    global nums, num, average1
-    average1 = 0
-    nums= ""
+def average(numbers):
+    average1= 0
+    nums=numbers
     for num in nums:
-        average1 = num+ numbers
-    return int(average1%10(numbers.count))
+        average1+= num
+    return average1/(len(nums))
 
-print("The average of the above numbers is...." + average(numbers))
+print("The average of the above numbers is....", average(numbers))
 
