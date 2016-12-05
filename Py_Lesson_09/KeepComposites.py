@@ -1,4 +1,4 @@
-nums=[2, 6, 8, 9, 10, 12, 13, 15, 17, 24, 55, 66, 78, 77, 79]
+nums= [2, 6, 8, 9, 10, 12, 13, 15, 17, 24, 55, 66, 78, 77, 79]
 
 def gFactor(number):
     for i in range(2, number):
@@ -7,12 +7,12 @@ def gFactor(number):
         else:
             return 0
 
-def removePrimes():
+def removePrimes(nums):
     for number in nums:
         if gFactor(number)==0:
-            number= nums-number
+            return(nums.remove(number))
 
-removePrimes()
+removePrimes(nums)
 print (nums)
 
 
