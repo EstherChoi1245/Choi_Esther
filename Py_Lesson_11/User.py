@@ -24,7 +24,6 @@ class User:
         return "Customer Info...\nFirst Name: " + self.firstName + "\nLast Name: " + self.lastName + "\nAvatar: " + self.avatar + "\nUser ID#: " + str(self.userID)
     
 def main():
-#   user1 = User(firstName, lastName)
     firstName = input("Enter your first name: ")
     lastName = input("Enter your last name: ")
     user1 = User(firstName, lastName)
@@ -34,8 +33,6 @@ def main():
     else:
         avatar = input("What would you like as your avatar name? ")
         user1 = User(firstName, lastName, avatar)
-    def __str__(self):
-        return "Customer Info...\nFirst Name: " + self.firstName + "\nLast Name: " + self.lastName + "\nAvatar: " + self.avatar + "\nUser ID#: " + str(self.userID)
     print(user1)
   
 main()
