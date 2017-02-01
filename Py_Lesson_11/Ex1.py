@@ -4,11 +4,13 @@ class MilesPerHour:
         self.hours = hours
         self.minutes = minutes
         mph = 0
+
     def setValues(self, distance, hours, minutes):
-        distance = setValues(distance)
-        hours = setValues(hours)
-        minutes = setValues(minutes)
-        mph = 0
+        self.distance =  distance
+        self.hours = hours
+        self.minutes = minutes
+
+
     def GetDist(self):
         return self.distance
     def getHours(self):
@@ -18,6 +20,7 @@ class MilesPerHour:
     def getMPH(self):
         mph = distance/(hours + minutes/60.0)
         return mph
+    
 def main():
     global distance, hours, minutes
 
