@@ -1,37 +1,65 @@
 <!doctype html>
 <html>
 <head>
+	<link rel = "stylesheet" type = "text/css" href = "style.css"/>
+
 	<style type = "text/css"> 
+		div	{
+		color: red;		
+		text-align: center;
+		border: 5px dashed red;
+		position: absolute;
+		width: 40%;
+		left: 50%; 
+		top: 2%;
+		background-color: black;
+		}
+		
 		body {background-color:gray;
 		font-family: verdana;
 		color:pink;
 		}
-		tr {border: 5px solid pink;
-			background-color: gray;
+		tr {border: 5px solid blue;
+			background-color: white;
 		}
 		td	{border: 1 px solid pink;
 		background color: gray; 
 		}
+		
 		ul	{
 		color: pink;
 		list-style-image: url("https://www.inkjetonline.com.au/skin1/images/Blue%20Small%20Bullet%20Point.gif");
 		border: 1 px dashed pink;
 		background-color: gray;
 		}
+		span	{
+		color: green; 
+		text-decoration: bold;
+		}
 		
+		#black {
+		color:black;
+		font-family: arial;}
 	</style>
 
 <body>
+<a href = "AboutMe.html">Web Lab 1</a>
+<a href = "WebLab3.html">Web Lab 3</a>
+
+<h1><div>Colleges and Books</div></h1><br></br>
+
+<p id = "black">Random paragraph text to format</p>
 <ul>
 <li>"The Bell Jar"</li>
 <li>"Ariel"</li>
 <li>"Lady Lazarus"</li>
 </ul>
 
+
 <table border = "1" width = "100%" cellpadding = "10" cellspacing = "1">
 	<tr>
 	<td width = "20%"></td>
-	<td width = "20%">Name</td>
+	<td width = "20%"><span>Name</span></td>
 	<td width = "20%">Location</td>
 	<td width = "20%">Brief Description</td>
 	<td width = "20%">Why</td>
@@ -41,7 +69,7 @@
 	<td><img src = "https://www.brown.edu/academics/portuguese-brazilian-studies/sites/all/themes/pawtucket/img/sample-large-banner.jpg" height = "100"></td>	
 	<td>Brown University</td>
 	<td>Providence, RI</td>
-	<td>An Ivy League college that specializes in medical, engineering, and professional studies</td>
+	<td>An <span>Ivy League</span> college that specializes in medical, engineering, and professional studies</td>
 	<td>It has a lot of undergraduate programs </td>
 	</tr>
 	
@@ -50,13 +78,13 @@
 	<td>MIT</td>
 	<td>Cambridge, MA</td>
 	<td>A college that specializes in science and technology</td>
-	<td>I'll probably major in science or technology</td>
+	<td>I'll probably <span>major</span> in science or technology</td>
 	</tr>
 	
 	<tr>
 	<td><img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Caltech_Entrance.jpg/640px-Caltech_Entrance.jpg" height = "100"></td>
 	<td>Caltech</td>
-	<td>Pasadena, CA</td>
+	<td><span>Pasadena, CA<span></td>
 	<td>A college that also specializes in science and technology</td>
 	<td>I'll probably major in science or technology</td>
 	</tr>
