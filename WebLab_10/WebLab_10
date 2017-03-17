@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang = "en">
+<head>
+        <meta charset = "utf-8"/>
+        <title>Wnnnnebsite</title>
+        <link rel = "stylesheet" href = "main.css"/>
+</head>
+
+<body>
+<div id= "something">
+<header id = "header">
+<h1>
+    Website
+</h1>
+</header>
+
+<nav id = "astrolabe">
+<ul>
+    <li>Home</li>
+    <li>Content</li>
+    <li>More Content</li>
+</ul>
+</nav>
+
+<section id = "sectioning">
+<h2>Content</h2>
+
+<article>
+<header>
+<hgroup>
+    <h1>Article Title</h1>
+    <h2>Article Subtitle</h2>
+</hgroup>
+</header>
+    <p>Content </p>
+
+<footer>
+    <p>Written on whatever, 2017</p>
+</footer>
+
+</article>
+
+</section>
+
+<aside id="chacharealsmooth">
+
+</aside>
+
+<footer id = "mort">
+
+</footer>
+</div>
+
+</body>
+
+
+
+</html>
