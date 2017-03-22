@@ -9,7 +9,7 @@ h1 {
 }
 
 
-h1 {
+h2 {
     font: bold 15px Arial;
 }
 
@@ -18,12 +18,12 @@ header, section, footer, aside, nav, article, hgroup {
 }
 
 body {
-    width: 100%
+    width: 90%;
     display: -webkit-box;
     -webkit-box-pack: center;
 }
 
-#something {
+#firstDiv {
     max-width: 1000px;
     margin: 20px 0px;
     display: -webkit-box;
@@ -37,18 +37,53 @@ body {
     padding: 20px;
 }
 
-#astrolabe {
+#navi {
     background: pink;
     border: 5px solid yellow;
     color: blue;
 }
 
-#astrolabe li {
+#navi li {
     display: inline-block;
     list-style: none;
     padding: 5px;
     font: bold 15px Arial;
 }
+
+#flexDiv {
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+}
+
+#sectioning {
+    border: 1px solid crimson;
+    -webkit-box-flex: 1;
+    margin: 20px;
+    padding: 20px;
+	-webkit-box-ordinal-group: 9;
+
+}
+
+
+
+#aside {
+    border: 1px solid red;
+    margin: 10px;
+    padding: 0px;
+    background: blue;
+	text-align: center;
+	-webkit-box-ordinal-group: 1;
+    -webkit-box-flex: 1;
+
+}
+
+#footer {
+	text-align: center;
+	padding: 20px;
+	border-top: 2px solid crimson;
+	
+}
+
 
 
 
