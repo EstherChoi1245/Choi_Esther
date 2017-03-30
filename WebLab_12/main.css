@@ -2,11 +2,20 @@ body {
 	text-align: center;
 }
 
+#article {
+	border: 1px solid green;
+	display: inline-block;
+    list-style: none;
+    padding: 10px;
+    font: bold 15px Tahoma;
+	background: blue;
+}
+
 #navi1, #navi2, #navi3 {
 	display: block;
 	width: 500px;
 	margin: 50px auto;
-	padding: 15px;
+	padding: 5px;
 	text-align: center;
 	border: 1px solid blue;
 	background: -webkit-radial-gradient(center, circle, yellow 0%, white 80%);
@@ -15,6 +24,7 @@ body {
 	-webkit-transition:-webkit-transform 3s;
 	
 }
+
 
 #text {
 	font: bold 30px Arial;
@@ -38,9 +48,9 @@ body {
 #footer {
 	color: white;
 	display: block;
-	width: 500px;
+	width: 100px;
 	margin: 50px auto;
-	padding: 15px;
+	padding: 5px;
 	text-align: center;
 	border: 1px solid blue;
 	text-shadow: rgb(3, 150, 0) 2px 2px 3px;
