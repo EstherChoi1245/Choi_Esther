@@ -6,84 +6,9 @@
 
 h1 {
     font: bold 20px Tahoma;
+
 }
 
-
-h2 {
+h2{
     font: bold 15px Tahoma;
 }
-
-header, section, footer, aside, nav, article, hgroup {
-    display: block;
-}
-
-#body {
-    text-align: center;
-}
-
-#div {
-   	border: 1px solid red;
-	width: 1000px;
-    margin: 20px auto;
-	text-align: left;	
-}
-
-#header {
-    background: yellow;
-    border: 5px solid black;
-    padding: 20px;
-}
-
-#navi {
-    background: pink;
-    color: blue;
-}
-
-#navi li {
-    display: inline-block;
-    list-style: none;
-    padding: 10px;
-    font: bold 15px Tahoma;
-}
-
-#flexdiv {
-	float: left;
-	margin: 20px auto;
-	width: 1000px;
-}
-
-#sectioning {
-    border: 1px solid crimson;
-    margin: 20px;
-    padding: 20px;
-	background: yellow;
-
-}
-
-
-
-#aaside {
-	float: left;
-	width: 220px;
-    margin: 10px 0px;
-    padding: 10px;
-    background: blue;
-}
-
-#footer {
-	clear: both;
-	text-align: center;
-	padding: 20px;
-	border-top: 2px solid crimson;
-	
-}
-
-article {
-	background: white;
-	border: 1px solid blue;
-	padding: 20px;
-	margin-bottom: 10px;
-	
-}
-
-
