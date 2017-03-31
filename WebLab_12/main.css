@@ -13,8 +13,8 @@ body {
 
 #navi1, #navi2, #navi3 {
 	display: block;
-	width: 500px;
-	margin: 50px auto;
+	width: 200px;
+	margin: 20px auto;
 	padding: 5px;
 	text-align: center;
 	border: 1px solid blue;
@@ -27,7 +27,7 @@ body {
 
 
 #text {
-	font: bold 30px Arial;
+	font: bold 15px Arial;
 	text-shadow: rgb(100, 100, 100) 3px 3px 3px; 
 	
 }
@@ -87,12 +87,17 @@ body {
 }
 
 #header2:hover {
-	-webkit-transform: translate(-30px, -40px) rotate(360deg) scale(3.0);
+	-webkit-transform: translate(-30px, -40px) rotate(1080deg) scale(3.0);
 	text-shadow: rgb(150, 0, 0) 5px 5px 5px;
 	color: red;
 
 }
 
+#mash	{
+	display: block;
+	background: yellow;
+	color: blue;
+}
 
 #mash:hover {
 	-webkit-transform: translate(0px, -30px) scale(3.0);
@@ -102,5 +107,8 @@ body {
 }
 
 
-
+p	{
+	color: yellow;
+	
+}
 
