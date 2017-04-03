@@ -13,11 +13,6 @@ h2{
     font: bold 15px Tahoma;
 }
 
-* {
-    margin: 0px;
-    padding: 0px;
-}
-
 header, section, footer, aside, nav, article, hgroup {
     display: block;
 }
@@ -31,7 +26,7 @@ body {
 	border: 2px solid purple;
 	width: 1000px;
     margin: 20px auto;
-	text-align: center;
+	text-align: left;
 }
 
 
@@ -43,7 +38,6 @@ body {
 
 #navi {
     background: pink;
-    border: 5px solid yellow;
     color: blue;
 }
 
@@ -70,10 +64,11 @@ body {
     margin: 10px 0px;
     padding: 30px;
     background: blue;
+	color: white;
 
 }
 
-#footer {
+footer {
 	clear: both;
 	text-align: center;
 	padding: 20px;
